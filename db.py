@@ -4,11 +4,11 @@ import mysql.connector as mc
 class DBConnection:
 
     def __init__(self):
-        self.host = 'sql.freedb.tech'
+        self.host = 'Localhost'
         self.port = 3306
-        self.name = 'freedb_databasenyaaku'
-        self.user = 'freedb_punya_dissa'
-        self.password = 'AZ4cQmQXd8VyH$k'
+        self.name = 'mydb'
+        self.user = 'root'
+        self.password = ''
         self.conn = None
         self.cursor = None
         self.result = None
